@@ -270,7 +270,7 @@ user Function MvcMod1() //axcadastro("SA1","cadastro de cliente")
     oBrowse:Activate()
 Return
 
-User Function Modelo2()
+User Function Mod2()
     
   DEFINE DIALOG oDlg TITLE "Tela customizada" FROM 0,0 TO 200,650 PIXEL
   oButton := TButton():New(02,270, "Botao Sair",oDlg,{|| oDlg:end()}, 40,10,,,.F.,.T.,.F.,,.F.,,,.F. )     
@@ -285,8 +285,8 @@ User Function Modelo2()
  ACTIVATE DIALOG oDlg CENTERED
 Return
 
-User Function Modelo3()
- 
+User Function Mod3()
+ Modelo3("Modelo3","SC5","SC6",,"AllwaysTrue()","AllwaysTrue()","AllwaysTrue()","AllwaysTrue()","AllwaysTrue()")	
    
 Return
 
