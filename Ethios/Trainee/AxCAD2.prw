@@ -1,6 +1,8 @@
 #INCLUDE "TOTVS.CH"
 #INCLUDE "Protheus.CH"
+
 /*
+
     Exemplo de AxCadastro - Modelo 2 (Uma unica tabela)
 
     Este exemplo acessa tabela no banco de dados e dicionarios, por isso deve ser executado via SIGAMDI

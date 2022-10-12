@@ -262,7 +262,7 @@ User Function TwBrowseCL()
 */    
 return
 
-user Function MvcModel1() //axcadastro("SA1","cadastro de cliente")   
+user Function MvcMod1() //axcadastro("SA1","cadastro de cliente")   
     Local oBrowse := FwMBrowse():New()
 
     oBrowse:SetAlias("SA1")
@@ -270,13 +270,9 @@ user Function MvcModel1() //axcadastro("SA1","cadastro de cliente")
     oBrowse:Activate()
 Return
 
-User Function Model2()
-    Local oBrowse := FwMBrowse():New()
-
-    oBrowse:SetAlias("SC5")
-    oBrowse:SetDescription("Pedido de Venda-SC5")
-    oBrowse:Activate()
-/*  DEFINE DIALOG oDlg TITLE "Tela customizada" FROM 0,0 TO 200,650 PIXEL
+User Function Modelo2()
+    
+  DEFINE DIALOG oDlg TITLE "Tela customizada" FROM 0,0 TO 200,650 PIXEL
   oButton := TButton():New(02,270, "Botao Sair",oDlg,{|| oDlg:end()}, 40,10,,,.F.,.T.,.F.,,.F.,,,.F. )     
   @ 15,10 MSPANEL oPanel1 COLORS CLR_BLACK,CLR_GRAY SIZE 300, 20 OF oDlg
   @ 5,150 SAY "Cabeçalho" OF oPanel1 PIXEL
@@ -287,12 +283,10 @@ User Function Model2()
   @ 65,10 MSPANEL oPanel3 COLORS CLR_BLACK,CLR_GRAY SIZE 300, 20 OF oDlg
   @ 5,150 SAY "Rodape" OF oPanel3 PIXEL    
  ACTIVATE DIALOG oDlg CENTERED
- */
 Return
 
-User Function Model3()
+User Function Modelo3()
  
- Modelo3("PV-Mod3","SC5","SC6",,"AllwaysTrue()","AllwaysTrue()","AllwaysTrue()","AllwaysTrue()","AllwaysTrue()")	
    
 Return
 
