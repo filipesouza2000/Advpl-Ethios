@@ -1,5 +1,4 @@
 #INCLUDE "TOTVS.CH"
-
 /*
 
     Exemplo de AxCadastro - Modelo 1 (Uma unica tabela)
